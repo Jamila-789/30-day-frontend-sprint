@@ -1,87 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jamila Noor Fatima | Portfolio</title>
 
+    <title>Jamila Noor Fatima | Frontend Developer Portfolio</title>
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon (Optional) -->
+    <link rel="icon" href="images/profile.jpg">
 </head>
 
 <body>
-<header>
-    <h1>Jamila Noor Fatima</h1>
-    <p>Frontend Developer (Learning Journey)</p>
-</header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Skills</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-</nav>
+    <!-- ========================= -->
+    <!-- Header Section -->
+    <!-- ========================= -->
 
-<main>
+    <header>
 
-<div class="card-container">
+        <h1>Jamila Noor Fatima</h1>
 
-    <!-- About Card -->
-    <section class="card">
+        <p class="tagline">
+            Frontend Developer | Computer Engineering Graduate | 30-Day Frontend Sprint
+        </p>
 
-        <span class="badge">NEW</span>
+    </header>
 
-        <span class="status">HTML</span>
+    <!-- ========================= -->
+    <!-- Navigation -->
+    <!-- ========================= -->
 
-        <h2 id="about">About Me</h2>
+    <nav>
 
-        <p class="highlight">
-            My name is Jamila Noor Fatima.
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#roadmap">Roadmap</a>
+
+        <a href="#schedule">Schedule</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <!-- ========================= -->
+    <!-- Main Content -->
+    <!-- ========================= -->
+
+    <main>
+
+        <!-- ========================= -->
+        <!-- About Me -->
+        <!-- ========================= -->
+
+        <section id="about" class="card">
+
+            <span class="badge">NEW</span>
+
+            <span class="status">HTML & CSS</span>
+
+            <h2>About Me</h2>
+
+            <img
+                src="images/profile.jpg"
+                alt="Jamila Noor Fatima"
+                width="180">
+
+            <p class="highlight">
+                Hello! I'm <strong>Jamila Noor Fatima</strong>.
+            </p>
+
+            <p>
+                I am a Computer Engineering graduate and currently learning
+                Frontend Development step by step.
+            </p>
+
+            <p>
+                My dream is to become a professional Frontend Developer,
+                work in a software house, and build modern websites.
+            </p>
+
+            <p>
+                Formula Example:
+                H<sub>2</sub>O
+                &
+                x<sup>2</sup>
+            </p>
+
+            <p>
+
+                <del>
+                    I was afraid of coding.
+                </del>
+
+                <br>
+
+                <ins>
+                    Now I practice coding every day.
+                </ins>
+
+            </p>
+
+            <button class="btn">
+                Contact Me
+            </button>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- Card Container -->
+        <!-- ========================= -->
+
+        <div class="card-container">
+
+            <!-- Skills Card -->
+
+            <section
+                id="skills"
+                class="card">
+
+                <h2>My Skills</h2>
+
+                <ul>
+
+                    <li>HTML5</li>
+
+                    <li>CSS3</li>
+
+                    <li>Git & GitHub</li>
+
+                    <li>Responsive Design (Learning)</li>
+
+                    <li>JavaScript (Learning)</li>
+
+                </ul>
+
+                <button class="btn">
+                    View Projects
+                </button>
+
+            </section>
+
+                    <!-- Learning Roadmap Card -->
+
+            <section id="roadmap" class="card">
+
+                <h2>My Learning Roadmap</h2>
+
+                <ol>
+
+                    <li>Learn HTML</li>
+
+                    <li>Learn CSS</li>
+
+                    <li>Learn JavaScript</li>
+
+                    <li>Learn React</li>
+
+                    <li>Build Real Projects</li>
+
+                    <li>Create Portfolio Website</li>
+
+                    <li>Get a Software House Job</li>
+
+                </ol>
+
+                <button class="btn">
+                    My Goal
+                </button>
+
+            </section>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Technologies -->
+        <!-- ========================= -->
+
+        <section class="card">
+
+            <h2>Web Technologies</h2>
+
+            <dl>
+
+                <dt>HTML</dt>
+
+                <dd>
+                    HTML is used to create the structure of a webpage.
+                </dd>
+
+                <dt>CSS</dt>
+
+                <dd>
+                    CSS is used to design and style webpages.
+                </dd>
+
+                <dt>JavaScript</dt>
+
+                <dd>
+                    JavaScript makes webpages interactive.
+                </dd>
+
+            </dl>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- Useful Links -->
+        <!-- ========================= -->
+
+        <section class="card">
+
+            <h2>Useful Links</h2>
+
+            <p>
+
+                <a href="https://github.com" target="_blank">
+                    GitHub
+                </a>
+
+            </p>
+
+            <p>
+
+                <a href="https://developer.mozilla.org"
+                   target="_blank">
+
+                    MDN Web Docs
+
+                </a>
+
+            </p>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- Learning Schedule -->
+        <!-- ========================= -->
+
+        <section
+            id="schedule"
+            class="card">
+
+            <h2>30-Day Sprint Progress</h2>
+
+            <table border="1">
+
+                <tr>
+
+                    <th>Day</th>
+
+                    <th>Topic</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>1</td>
+
+                    <td>HTML Structure</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+
+                    <td>Semantic HTML</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3</td>
+
+                    <td>Text Formatting</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>4</td>
+
+                    <td>Lists & Links</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>5</td>
+
+                    <td>Images</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>6</td>
+
+                    <td>Tables</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>7</td>
+
+                    <td>Forms</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>8-12</td>
+
+                    <td>CSS Fundamentals</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- Contact Form -->
+        <!-- ========================= -->
+
+        <section
+            id="contact"
+            class="card">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">
+                    Full Name
+                </label>
+
+                <br>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name">
+
+                <br><br>
+
+                <label for="email">
+                    Email
+                </label>
+
+                <br>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email">
+
+                <br><br>
+
+                        <label for="phone">
+                    Phone Number
+                </label>
+
+                <br>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number">
+
+                <br><br>
+
+                <label for="dob">
+                    Date of Birth
+                </label>
+
+                <br>
+
+                <input
+                    type="date"
+                    id="dob">
+
+                <br><br>
+
+                <label>
+                    Gender
+                </label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender">
+
+                <label for="female">
+                    Female
+                </label>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender">
+
+                <label for="male">
+                    Male
+                </label>
+
+                <br><br>
+
+                <label>
+                    Skills
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="html">
+
+                <label for="html">
+                    HTML
+                </label>
+
+                <input
+                    type="checkbox"
+                    id="css">
+
+                <label for="css">
+                    CSS
+                </label>
+
+                <input
+                    type="checkbox"
+                    id="javascript">
+
+                <label for="javascript">
+                    JavaScript
+                </label>
+
+                <br><br>
+
+                <label for="city">
+                    City
+                </label>
+
+                <br>
+
+                <select id="city">
+
+                    <option>Kamoke</option>
+
+                    <option>Gujranwala</option>
+
+                    <option>Lahore</option>
+
+                    <option>Islamabad</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="message">
+                    Message
+                </label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    cols="35"
+                    placeholder="Write your message">
+                </textarea>
+
+                <br><br>
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- ========================= -->
+    <!-- Footer -->
+    <!-- ========================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Jamila Noor Fatima
         </p>
 
         <p>
-            I am learning Frontend Development step by step.
+            Frontend Developer in Progress 🚀
         </p>
 
-        <button class="btn">
-            Contact Me
-        </button>
+        <p>
+            Built with HTML & CSS during my
+            30-Day Frontend Sprint.
+        </p>
 
-    </section>
+    </footer>
 
-    <!-- Skills Card -->
-    <section class="card">
+    <!-- Floating Button -->
 
-        <span class="status">CSS</span>
+    <button class="contact-btn">
 
-        <h2>My Skills</h2>
+        Hire Me
 
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git & GitHub</li>
-            <li>JavaScript</li>
-        </ul>
+    </button>
 
-        <button class="btn">
-            View Projects
-        </button>
-
-    </section>
-
-</div>
-
-</main>
-
-<footer>
-
-    <p>© 2026 Jamila Noor Fatima</p>
-
-</footer>
-
-<button class="contact-btn">
-    Hire Me
-</button>
-    
 </body>
+
 </html>
